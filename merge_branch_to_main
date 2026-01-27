@@ -1,39 +1,115 @@
-The primary goal of this session is to prepare for a clean and intentional merge of the current branch into main.
+Your primary objective is to identify and reason about all differences between the current branch and main, at both the file and line level, in order to design a low-risk merge strategy.
 
-To achieve this, the agent should:
+This includes:
 
-Identify which files differ between the current branch and main.
+Which files differ
 
-For each differing file, identify the specific lines or code regions that have changed.
+Which specific lines or regions differ
 
-Determine whether each difference represents:
+Why those differences exist
 
-New functionality
+How they affect behavior, functionality, performance, or correctness
 
-Modified behavior
+Autonomy & Freedom (Explicitly Allowed)
 
-Refactoring without behavior change
+You are explicitly allowed to:
 
-Bug fixes or regressions
+Choose any appropriate Git tooling (git diff, git range-diff, git log, git blame, etc.)
 
-Constraints & Priorities
+Traverse the repository freely to understand context
 
-Preserve all intended functionality and behavior of the current branch.
+Infer intent from commit history, naming, or code structure
 
-Do not assume that main is correct by default; evaluate conflicts based on behavior and intent.
+Categorize changes using your own taxonomy if helpful
 
-Avoid making code changes until a clear merge plan is documented in planning.md.
+Propose alternative merge strategies (rebase-like, selective cherry-pick, manual reconciliation)
 
-Prefer minimal, explicit changes that reduce merge risk.
+Flag uncertainty and suggest follow-ups when intent is ambiguous
 
-Expected Outcome
+You do not need permission to:
 
-By the end of the session:
+Inspect files
 
-planning.md contains a clear, file-by-file and line-level summary of differences versus main.
+Compare branches
 
-The document includes a proposed merge strategy explaining how to incorporate the current branch into main while maintaining or improving existing behavior.
+Analyze historical context
 
-No functional code edits are performed without being justified by the documented plan.
+Document hypotheses
 
-Wait for explicit instruction to utilize the current plan to proceed in functional code edits 
+Constraints (Hard Rules)
+
+You must not:
+
+Modify functional code before a plan is documented
+
+Assume main is correct by default
+
+Resolve conflicts implicitly or silently
+
+Perform refactors “while you’re there”
+
+Optimize or clean code unless required for behavioral parity
+
+All changes must be intentional, justified, and planned.
+
+Required Analysis Dimensions
+
+For every difference relative to main, explicitly assess:
+
+Type
+
+New feature
+
+Behavioral change
+
+Bug fix
+
+Refactor (no behavior change)
+
+Accidental divergence
+
+Risk
+
+Merge conflict risk
+
+Behavioral regression risk
+
+Dependency
+
+Does this change depend on other changes?
+
+Is ordering important?
+
+Planning Output Requirements (planning.md)
+
+Your plan must include:
+
+A file-by-file summary of differences vs main
+
+Line- or block-level descriptions of key changes
+
+Rationale for keeping, modifying, or discarding each change
+
+A proposed merge sequence that minimizes risk
+
+Notes on any unresolved ambiguity or decisions requiring human input
+
+No code edits may proceed unless they are:
+
+Referenced in planning.md
+
+Justified by documented intent
+
+Necessary to preserve current-branch behavior
+
+Success Criteria
+
+This task is successful when:
+
+The full behavioral delta vs main is understood and documented
+
+A merge can be executed confidently with no surprises
+
+The current branch’s functionality is preserved or intentionally improved
+
+Future reviewers can understand why each merge decision was made

@@ -1,0 +1,10 @@
+Create a .gitignore that prevents all .md files from being committed.
+
+Commit this change to the current working branch.
+
+Create two markdown files (locally, not committed):
+
+agent.md: to capture agent assumptions, constraints, and decision-making principles.
+
+planning.md: to capture the merge strategy, findings, and step-by-step plan.
+These files should be referenced throughout the session before making any editing or refactoring decisions.

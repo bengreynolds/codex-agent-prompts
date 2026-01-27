@@ -1,0 +1,39 @@
+The primary goal of this session is to prepare for a clean and intentional merge of the current branch into main.
+
+To achieve this, the agent should:
+
+Identify which files differ between the current branch and main.
+
+For each differing file, identify the specific lines or code regions that have changed.
+
+Determine whether each difference represents:
+
+New functionality
+
+Modified behavior
+
+Refactoring without behavior change
+
+Bug fixes or regressions
+
+Constraints & Priorities
+
+Preserve all intended functionality and behavior of the current branch.
+
+Do not assume that main is correct by default; evaluate conflicts based on behavior and intent.
+
+Avoid making code changes until a clear merge plan is documented in planning.md.
+
+Prefer minimal, explicit changes that reduce merge risk.
+
+Expected Outcome
+
+By the end of the session:
+
+planning.md contains a clear, file-by-file and line-level summary of differences versus main.
+
+The document includes a proposed merge strategy explaining how to incorporate the current branch into main while maintaining or improving existing behavior.
+
+No functional code edits are performed without being justified by the documented plan.
+
+Wait for explicit instruction to utilize the current plan to proceed in functional code edits 

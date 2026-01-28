@@ -25,6 +25,7 @@
 |       |-- create-codebase-context-lite.md
 |       |-- create-codebase-context.md
 |       |-- merge-branch-to-main.md
+|       |-- mimic-code-architecture.md
 |       `-- release-readiness.md
 |-- CONTRIBUTING.md
 `-- README.md

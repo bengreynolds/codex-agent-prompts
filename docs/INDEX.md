@@ -16,6 +16,7 @@
 - `prompts/workflows/bug-hunt.md` - Reproduce, isolate, and explain a bug before fixing.
 - `prompts/workflows/release-readiness.md` - Evaluate release readiness and decide go or no-go.
 - `prompts/workflows/agent-planning-review.md` - Review `agent.md`, `planning.md`, and recent commits.
+- `prompts/workflows/mimic-code-architecture.md` - Match an existing codebase's architecture and style.
 
 ### Planning
 - `prompts/planning/migration-plan.md` - Plan a safe, reversible migration.

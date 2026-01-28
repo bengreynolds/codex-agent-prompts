@@ -11,6 +11,7 @@ This directory contains prompt templates grouped by type. Each prompt is written
 - `workflows/bug-hunt.md` - Reproduce, isolate, and explain a bug before fixing.
 - `workflows/release-readiness.md` - Evaluate release readiness and decide go or no-go.
 - `workflows/agent-planning-review.md` - Review `agent.md`, `planning.md`, and recent commits.
+- `workflows/mimic-code-architecture.md` - Match an existing codebase's architecture and style.
 
 ## Planning
 - `planning/migration-plan.md` - Plan a safe, reversible migration.

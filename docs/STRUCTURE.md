@@ -14,11 +14,16 @@
 |   `-- STYLE_GUIDE.md
 |-- prompts/
 |   |-- README.md
+|   |-- planning/
+|   |   |-- migration-plan.md
+|   |   `-- refactor-plan.md
 |   `-- workflows/
 |       |-- agent-execution.md
 |       |-- branch-setup.md
+|       |-- bug-hunt.md
 |       |-- create-codebase-context.md
-|       `-- merge-branch-to-main.md
+|       |-- merge-branch-to-main.md
+|       `-- release-readiness.md
 |-- CONTRIBUTING.md
 `-- README.md
 ```

@@ -12,3 +12,9 @@
 - `prompts/workflows/branch-setup.md` - Initialize a branch session and local planning files.
 - `prompts/workflows/create-codebase-context.md` - Build high-fidelity context before edits.
 - `prompts/workflows/merge-branch-to-main.md` - Analyze branch vs main and design a merge plan.
+- `prompts/workflows/bug-hunt.md` - Reproduce, isolate, and explain a bug before fixing.
+- `prompts/workflows/release-readiness.md` - Evaluate release readiness and decide go or no-go.
+
+### Planning
+- `prompts/planning/migration-plan.md` - Plan a safe, reversible migration.
+- `prompts/planning/refactor-plan.md` - Plan a behavior-preserving refactor.

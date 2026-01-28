@@ -14,9 +14,13 @@
 |   `-- STYLE_GUIDE.md
 |-- prompts/
 |   |-- README.md
+|   |-- batch/
+|   |   `-- agent-initialization-bundle.md
+|   |-- experimental/
 |   |-- planning/
 |   |   |-- migration-plan.md
-|   |   `-- refactor-plan.md
+|   |   |-- refactor-plan.md
+|   |   `-- mvp-plan.md
 |   `-- workflows/
 |       |-- agent-execution.md
 |       |-- agent-planning-review.md

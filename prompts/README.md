@@ -13,6 +13,13 @@ This directory contains prompt templates grouped by type. Each prompt is written
 - `workflows/agent-planning-review.md` - Review `agent.md`, `planning.md`, and recent commits.
 - `workflows/mimic-code-architecture.md` - Match an existing codebase's architecture and style.
 
+## Batch
+- `batch/agent-initialization-bundle.md` - Condensed onboarding workflow for context, style, and execution.
+
+## Experimental
+- Add experimental prompts here.
+
 ## Planning
 - `planning/migration-plan.md` - Plan a safe, reversible migration.
 - `planning/refactor-plan.md` - Plan a behavior-preserving refactor.
+- `planning/mvp-plan.md` - Define a minimum viable product for a specific task.

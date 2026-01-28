@@ -19,8 +19,10 @@
 |   |   `-- refactor-plan.md
 |   `-- workflows/
 |       |-- agent-execution.md
+|       |-- agent-planning-review.md
 |       |-- branch-setup.md
 |       |-- bug-hunt.md
+|       |-- create-codebase-context-lite.md
 |       |-- create-codebase-context.md
 |       |-- merge-branch-to-main.md
 |       `-- release-readiness.md

@@ -15,9 +15,7 @@ This directory contains prompt templates grouped by type. Each prompt is written
 
 ### Execution
 - `workflows/execution/agent-execution.md` - Execute a plan from `agent.md` and `planning.md` safely.
-
-### Merge
-- `workflows/merge/merge-branch-to-main.md` - Analyze branch vs main and design a merge plan.
+- `workflows/execution/confirm-implementation.md` - Verify implementation matches the plan and task goals.
 
 ### Quality
 - `workflows/quality/bug-hunt.md` - Reproduce, isolate, and explain a bug before fixing.
@@ -31,6 +29,24 @@ This directory contains prompt templates grouped by type. Each prompt is written
 
 ## Experimental
 - Add experimental prompts here.
+
+## Git
+### Branches
+- `git/branches/add-remote-branch.md` - Push a local branch to a remote and set upstream.
+- `git/branches/link-remote-branch.md` - Link a local branch to an existing remote branch.
+- `git/branches/remove-remote-branch.md` - Delete a remote branch safely with confirmation.
+
+### History
+- `git/history/rebase-branch.md` - Rebase a current branch onto a target branch with verification.
+
+### Sync
+- `git/sync/pull-with-logging.md` - Pull changes while capturing issues, warnings, and errors.
+
+### Tags
+- `git/tags/create-tag.md` - Create a Git tag with explicit target and metadata.
+
+### Merge
+- `git/merge/merge-branch-to-main.md` - Analyze branch vs main and design a merge plan.
 
 ## Planning
 - `planning/migration-plan.md` - Plan a safe, reversible migration.

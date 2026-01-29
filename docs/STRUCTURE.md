@@ -17,6 +17,19 @@
 |   |-- batch/
 |   |   `-- agent-initialization-bundle.md
 |   |-- experimental/
+|   |-- git/
+|   |   |-- branches/
+|   |   |   |-- add-remote-branch.md
+|   |   |   |-- link-remote-branch.md
+|   |   |   `-- remove-remote-branch.md
+|   |   |-- history/
+|   |   |   `-- rebase-branch.md
+|   |   |-- merge/
+|   |   |   `-- merge-branch-to-main.md
+|   |   |-- sync/
+|   |   |   `-- pull-with-logging.md
+|   |   `-- tags/
+|   |       `-- create-tag.md
 |   |-- planning/
 |   |   |-- migration-plan.md
 |   |   |-- refactor-plan.md
@@ -29,9 +42,8 @@
 |       |   |-- mimic-code-architecture.md
 |       |   `-- reestablish-context.md
 |       |-- execution/
-|       |   `-- agent-execution.md
-|       |-- merge/
-|       |   `-- merge-branch-to-main.md
+|       |   |-- agent-execution.md
+|       |   `-- confirm-implementation.md
 |       |-- quality/
 |       |   |-- bug-hunt.md
 |       |   |-- code-cleanup.md

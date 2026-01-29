@@ -20,9 +20,7 @@
 
 #### Execution
 - `prompts/workflows/execution/agent-execution.md` - Execute a plan from `agent.md` and `planning.md` safely.
-
-#### Merge
-- `prompts/workflows/merge/merge-branch-to-main.md` - Analyze differences between a branch and `main`, document risks, and plan a low-risk merge.
+- `prompts/workflows/execution/confirm-implementation.md` - Verify implementation matches the plan and task goals.
 
 #### Quality
 - `prompts/workflows/quality/bug-hunt.md` - Systematically reproduce, minimize, and explain a bug before proposing fixes.
@@ -36,6 +34,24 @@
 
 ### Experimental
 - Add experimental prompts here.
+
+### Git
+#### Branches
+- `prompts/git/branches/add-remote-branch.md` - Push a local branch to a remote and set upstream.
+- `prompts/git/branches/link-remote-branch.md` - Link a local branch to an existing remote branch.
+- `prompts/git/branches/remove-remote-branch.md` - Delete a remote branch safely with confirmation.
+
+#### History
+- `prompts/git/history/rebase-branch.md` - Rebase a current branch onto a target branch with verification.
+
+#### Sync
+- `prompts/git/sync/pull-with-logging.md` - Pull changes while capturing issues, warnings, and errors.
+
+#### Tags
+- `prompts/git/tags/create-tag.md` - Create a Git tag with explicit target and metadata.
+
+#### Merge
+- `prompts/git/merge/merge-branch-to-main.md` - Analyze differences between a branch and `main`, document risks, and plan a low-risk merge.
 
 ### Planning
 - `prompts/planning/migration-plan.md` - Plan a safe, reversible migration.

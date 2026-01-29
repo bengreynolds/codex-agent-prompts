@@ -22,19 +22,24 @@
 |   |   |-- refactor-plan.md
 |   |   `-- mvp-plan.md
 |   `-- workflows/
-|       |-- agent-execution.md
-|       |-- agent-planning-review.md
-|       |-- branch-setup.md
-|       |-- bug-hunt.md
-|       |-- create-codebase-context-lite.md
-|       |-- create-codebase-context.md
-|       |-- code-cleanup.md
-|       |-- code-condensation.md
-|       |-- codebase-efficacy-review.md
-|       |-- merge-branch-to-main.md
-|       |-- mimic-code-architecture.md
-|       |-- reestablish-context.md
-|       `-- release-readiness.md
+|       |-- context/
+|       |   |-- agent-planning-review.md
+|       |   |-- create-codebase-context-lite.md
+|       |   |-- create-codebase-context.md
+|       |   |-- mimic-code-architecture.md
+|       |   `-- reestablish-context.md
+|       |-- execution/
+|       |   `-- agent-execution.md
+|       |-- merge/
+|       |   `-- merge-branch-to-main.md
+|       |-- quality/
+|       |   |-- bug-hunt.md
+|       |   |-- code-cleanup.md
+|       |   |-- code-condensation.md
+|       |   |-- codebase-efficacy-review.md
+|       |   `-- release-readiness.md
+|       `-- setup/
+|           `-- branch-setup.md
 |-- CONTRIBUTING.md
 `-- README.md
 ```

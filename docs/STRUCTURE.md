@@ -28,6 +28,9 @@
 |       |-- bug-hunt.md
 |       |-- create-codebase-context-lite.md
 |       |-- create-codebase-context.md
+|       |-- code-cleanup.md
+|       |-- code-condensation.md
+|       |-- codebase-efficacy-review.md
 |       |-- merge-branch-to-main.md
 |       |-- mimic-code-architecture.md
 |       `-- release-readiness.md

@@ -12,6 +12,9 @@ This directory contains prompt templates grouped by type. Each prompt is written
 - `workflows/release-readiness.md` - Evaluate release readiness and decide go or no-go.
 - `workflows/agent-planning-review.md` - Review `agent.md`, `planning.md`, and recent commits.
 - `workflows/mimic-code-architecture.md` - Match an existing codebase's architecture and style.
+- `workflows/code-cleanup.md` - Remove redundant or unnecessary code safely.
+- `workflows/code-condensation.md` - Condense code while preserving behavior.
+- `workflows/codebase-efficacy-review.md` - Evaluate codebase efficacy and improvements.
 
 ## Batch
 - `batch/agent-initialization-bundle.md` - Condensed onboarding workflow for context, style, and execution.

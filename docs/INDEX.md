@@ -20,6 +20,7 @@
 - `prompts/workflows/code-cleanup.md` - Identify and remove patch debt, duplicate logic, and unnecessary code without changing behavior.
 - `prompts/workflows/code-condensation.md` - Reduce code size and complexity while preserving current behavior and interfaces.
 - `prompts/workflows/codebase-efficacy-review.md` - Evaluate codebase effectiveness and surface prioritized improvement opportunities.
+- `prompts/workflows/reestablish-context.md` - Rebuild session context after chat condensation using Git history and plan artifacts.
 
 ### Batch
 - `prompts/batch/agent-initialization-bundle.md` - Condensed onboarding workflow for context, style, and execution.

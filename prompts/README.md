@@ -15,6 +15,7 @@ This directory contains prompt templates grouped by type. Each prompt is written
 - `workflows/code-cleanup.md` - Remove redundant or unnecessary code safely.
 - `workflows/code-condensation.md` - Condense code while preserving behavior.
 - `workflows/codebase-efficacy-review.md` - Evaluate codebase efficacy and improvements.
+- `workflows/reestablish-context.md` - Rebuild session context after chat condensation using Git and artifacts.
 
 ## Batch
 - `batch/agent-initialization-bundle.md` - Condensed onboarding workflow for context, style, and execution.

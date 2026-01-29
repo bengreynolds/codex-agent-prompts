@@ -33,6 +33,7 @@
 |       |-- codebase-efficacy-review.md
 |       |-- merge-branch-to-main.md
 |       |-- mimic-code-architecture.md
+|       |-- reestablish-context.md
 |       `-- release-readiness.md
 |-- CONTRIBUTING.md
 `-- README.md
